@@ -11,6 +11,9 @@ Procedure:
 -- DECLAREd the variables so we can use them
 -- GETDATE gives us the exact time the process starts, DATEDIFF gives difference between two dates, returns days, months, years
 -- Get duration of loading the whole Bronze layer or whole batch
+
+Usage:
+EXEC bronze.load_bronze
 */
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
